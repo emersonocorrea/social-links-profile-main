@@ -1,0 +1,85 @@
+@import url('globalStyle.css');
+
+body{
+    background-color: var(--OffBlack);
+    height: 100vh;
+    width: 100vw;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    
+}
+
+.container{
+    background-color: var(--DarkGrey);
+    height: 700px;
+    width: 340px;
+    border-radius: 20px;
+    padding: 20px;    
+}
+
+.container .card{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    color: white;
+    
+
+}
+
+.container .card img{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+}
+
+h1{
+    font-size: 2.2rem;
+    font-weight: 500;
+    margin-top: 35px;
+    margin-bottom: 20px;
+}
+
+.container .card p {
+    color: var(--primary);
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+ul{
+    margin-top: 30px;
+}
+
+.work{
+    color: white;
+    margin-top: 40px;
+    margin-bottom: 0px;
+}
+
+ul li{
+   margin-bottom: 20px;
+}
+
+.button{
+    background: var(--Grey);
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    padding: 20px 0px;
+    border-radius: 10px;
+    font-weight: 400;
+   
+}
+
+.button:hover{
+    cursor: pointer;
+    background: var(--primary);
+    color: var(--DarkGrey);    
+    transition: 0.2s;
+}
