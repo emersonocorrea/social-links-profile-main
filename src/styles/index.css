@@ -17,9 +17,14 @@ main{
 .container{
     background-color: var(--DarkGrey);
     height: 700px;
-    width: 340px;
+    width: 340px;    
     border-radius: 20px;
-    padding: 20px;    
+    padding: 20px;
+    
+    @media(min-width: 640px){
+        width: 440px;
+
+    }
 }
 
 .container .card{
@@ -60,6 +65,7 @@ ul{
     color: white;
     margin-top: 40px;
     margin-bottom: 0px;
+    text-align: center;
 }
 
 ul li{
