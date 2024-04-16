@@ -10,6 +10,7 @@ const render = () => {
         const button = document.createElement('a')
 
         button.classList.add('button')
+        button.href = '#'
 
         button.innerText = item
 
